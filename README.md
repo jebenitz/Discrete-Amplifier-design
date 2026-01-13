@@ -1,6 +1,6 @@
 # Discrete Amplifier Design
 Design decisions and circuit schematics can be found at:
-- [Circuit](schematics/DiffAmp-Resload.asc)
+- [Circuit](schematics)
 - [Design workflow](theory/Workflow.md)
 
 # Stage 1.0: Differential Amplifier (Resistive Load)
