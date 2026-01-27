@@ -4,13 +4,16 @@ Design decisions and circuit schematics can be found at:
 - [Design workflow](theory/Workflow.md)
 
 # Stage 1.0: Differential Amplifier (Resistive Load)
-**Specifications:** A_d > 50, CMRR > 60 dB, and power consumption < 10 mA.
+**Specifications:** A_d > 50, CMRR > 60 dB, consumption < 10 mA and Simetric sources: V_CC = 12 V, V_EE = -12V.
 
-This design features:
+This design implements the following features:
 - Resistive load (R_C = 5.1 kΩ)
 - Tail current I_tail = 2 mA
 - Implementation using 2N2222 transistors
 - Small-signal AC characterization: 1 mV test signal at 1 kHz
+
+# Circuit Diagram
+![Differential Amplifier with Resistive Load](schematics/DiffAmp-resload.png)
 
 ## Simulation Results
 | Parameter | Value Obtained | Specification | Status |
