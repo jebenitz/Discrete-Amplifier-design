@@ -13,7 +13,7 @@ This design implements the following features:
 - Small-signal AC characterization: 1 mV test signal at 1 kHz
 
 # Circuit Diagram
-![Differential Amplifier with Resistive Load](schematics/DiffAmp-resload.png)
+<img src="schematics/DiffAmp-resload.png" width="400" alt="Compact view">
 
 ## Simulation Results
 | Parameter | Value Obtained | Specification | Status |
